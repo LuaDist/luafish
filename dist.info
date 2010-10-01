@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "luafish"
+version = "0.7"
+
+desc = "LuaFish is module for parsing Lua 5.1 source code."
+author = "David Manura"
+license = "MIT"
+url = "http://lua-users.org/wiki/LuaFish"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1",
+	"lpeg >=0.6"
+}
