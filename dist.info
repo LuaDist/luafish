@@ -1,0 +1,54 @@
+type = "x86"
+arch = "Windows"
+author = "David Manura"
+depends = {
+[[lua ~> 5.1]],
+[[lpeg >=0.6]],
+}
+
+desc = "LuaFish is module for parsing Lua 5.1 source code."
+version = "0.7"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib\lua\luafish\lua2c.lua]],
+[[lib\lua\luafish\macro.lua]],
+[[lib\lua\luafish\math.lua]],
+[[lib\lua\luafish\parser.lua]],
+[[lib\lua\luafish\run.lua]],
+[[lib\lua\luafish\serializer.lua]],
+[[lib\lua\luafish\staticmodule.lua]],
+[[lib\lua\luafish\string.lua]],
+[[lib\lua\luafish\type.lua]],
+[[bin\luafish]],
+[[bin\luafishcheck]],
+}
+,
+Example = {
+[[share\luafish\example\\1.lua]],
+[[share\luafish\example\\module_usage.lua]],
+[[share\luafish\example\\module_usage2.lua]],
+[[share\luafish\example\\small.lua]],
+[[share\luafish\example\\square.lua]],
+[[share\luafish\example\\square2.lua]],
+[[share\luafish\example\\type_usage.lua]],
+[[share\luafish\example\\type_usage2.lua]],
+}
+,
+Data = {
+[[share\luafish\COPYRIGHT]],
+[[share\luafish\HISTORY]],
+[[share\luafish\README]],
+}
+,
+Test = {
+[[share\luafish\test\\tall.lua]],
+[[share\luafish\test\\tmacro.lua]],
+[[share\luafish\test\\tparser.lua]],
+}
+,
+}
+
+license = "MIT"
+name = "luafish"
+url = "http://lua-users.org/wiki/LuaFish"
